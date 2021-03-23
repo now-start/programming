@@ -16,12 +16,12 @@ public class Main {
 			node[y][x] = node[x][y] = 1;
 		}
 
-		int count = DFS(node);
+		int count = BFS(node);
 
 		System.out.println(count);
 	}
 
-	private static int DFS(int[][] node) {
+	private static int BFS(int[][] node) {
 		int count = 0;
 		int[] visit = new int[node.length];
 		Queue<Integer> queue = new LinkedList<Integer>();
