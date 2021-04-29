@@ -127,4 +127,4 @@ class Point {
 		this.y = y;
 		this.dist = dist;
 	}
-};
+}
