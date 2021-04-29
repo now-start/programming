@@ -22,8 +22,8 @@ public class Main {
 			for (int j = 0; j < n; j++) {
 				arr[i][j] = Integer.parseInt(st.nextToken());
 				if (arr[i][j] == 9) {
-					x = i;
-					y = j;
+					x = j;
+					y = i;
 				}
 			}
 		}
@@ -38,14 +38,14 @@ public class Main {
 		int[] dy = { -1, 0, 1, 0 };
 		Queue<Point> queue = new LinkedList<Point>();
 		int[][] visit = new int[arr.length][arr.length];
-		queue.add(new Point(y, x));
+		queue.add(new Point(x, y, 2));
 		visit[y][x] = 1;
 
 		while (!queue.isEmpty()) {
 			Point temp = queue.poll();
-			for (int i = 0; i < arr.length; i++) {
-				for (int j = 0; j < arr.length; j++) {
-					
+			for (int i = 0; i < 4; i++) {
+				for (int j = 0; j < 4; j++) {
+					if(temp.x + dx[i])
 				}
 			}
 		}
@@ -58,9 +58,11 @@ public class Main {
 class Point {
 	int x;
 	int y;
+	int size;
 
-	Point(int x, int y) {
+	public Point(int x, int y, int size) {
 		this.x = x;
 		this.y = y;
+		this.size = size;
 	}
 }
