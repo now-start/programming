@@ -14,56 +14,43 @@ public class Main {
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		int n = Integer.parseInt(br.readLine());
 		int[][] arr = new int[n][n];
+		int x = 0;
+		int y = 0;
 
 		for (int i = 0; i < n; i++) {
 			StringTokenizer st = new StringTokenizer(br.readLine());
 			for (int j = 0; j < n; j++) {
 				arr[i][j] = Integer.parseInt(st.nextToken());
-			}
-		}
-
-		int x = 0;
-		int y = 0;
-		for (int i = 0; i < arr.length; i++) {
-			for (int j = 0; j < arr.length; j++) {
 				if (arr[i][j] == 9) {
 					x = i;
 					y = j;
 				}
 			}
 		}
-		
-		BFS(arr, x, y);
 
+		bw.write(BFS(arr, x, y) + " ");
+		bw.flush();
 	}
 
-	private static void BFS(int[][] arr, int x, int y) {
+	private static int BFS(int[][] arr, int x, int y) {
+		int result = 0;
 		int[] dx = { 0, -1, 0, 1 };
 		int[] dy = { -1, 0, 1, 0 };
 		Queue<Point> queue = new LinkedList<Point>();
-
-		for (int i = 0; i < arr.length; i++) {
-			for (int j = 0; j < arr.length; j++) {
-				if (arr[i][j] == 9) {
-					queue.add(new Point(i, j, 2));
-				}
-			}
-		}
+		int[][] visit = new int[arr.length][arr.length];
+		queue.add(new Point(y, x));
+		visit[y][x] = 1;
 
 		while (!queue.isEmpty()) {
 			Point temp = queue.poll();
 			for (int i = 0; i < arr.length; i++) {
 				for (int j = 0; j < arr.length; j++) {
-					if (temp.size < arr[i][j]) {
-
-					} else if (temp.size == arr[i][j]) {
-
-					} else if (temp.size > arr[i][j]) {
-
-					}
+					
 				}
 			}
 		}
+
+		return result;
 	}
 
 }
@@ -71,11 +58,9 @@ public class Main {
 class Point {
 	int x;
 	int y;
-	int size;
 
-	public Point(int x, int y, int size) {
+	Point(int x, int y) {
 		this.x = x;
 		this.y = y;
-		this.size = size;
 	}
 }
