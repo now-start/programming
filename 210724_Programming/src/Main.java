@@ -33,7 +33,7 @@ public class Main {
 
 		int sum = 0;
 		Arrays.sort(count);
-		for (int i = count.length - 1; i >= 0; i++) {
+		for (int i = count.length - 1; i >= 0; i--) {
 			sum += i * count[i];
 		}
 		System.out.println(sum);
