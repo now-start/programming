@@ -1,6 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
+//1377
 public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -17,7 +18,7 @@ public class Main {
 		Arrays.sort(a, (o1, o2) -> {
 			if (o1[0] > o2[0]) {
 				return 1;
-			}else {
+			} else {
 				return -1;
 			}
 		});
@@ -27,6 +28,6 @@ public class Main {
 			result = Math.max(result, a[i][1] - i);
 		}
 
-		System.out.println(result+1);
+		System.out.println(result + 1);
 	}
 }
