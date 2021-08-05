@@ -6,6 +6,7 @@ import java.io.OutputStreamWriter;
 import java.util.Stack;
 import java.util.StringTokenizer;
 
+//2493
 public class Main {
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
