@@ -19,11 +19,11 @@ public class Main {
 		// main
 		for (int i = 1; i <= n; i++) {
 			int temp = Integer.parseInt(st.nextToken());
-			while (!stack.isEmpty() && stack.peek()[0] < temp) {
+			while (!stack.isEmpty() && stack.peek()[1] < temp) {
 				stack.pop();
 			}
-			bw.write(stack.isEmpty() ? 0 + " " : stack.get(stack.size() - 1)[1] + " ");
-			stack.push(new int[] { temp, i });
+			bw.write(stack.isEmpty() ? 0 + " " : stack.get(stack.size() - 1)[0] + " ");
+			stack.push(new int[] { i, temp });
 		}
 
 		bw.flush();
