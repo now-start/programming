@@ -14,6 +14,8 @@
 
   * (YYMMDD)_Programming
 
+  * Commit Message : 문제 번호_commit
+
   * 각 문제 주석에 문제 번호 존재
 
 ## 링크
