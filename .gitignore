@@ -2,6 +2,8 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=eclipse
 
 ### Eclipse ###
+Programming/*_Programming/target
+Programming/*_Programming/.classpath
 Programming/*_Programming/.metadata
 Programming/*_Programming/bin/
 Programming/*_Programming/tmp/
