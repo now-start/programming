@@ -1,0 +1,70 @@
+# Created by https://www.toptal.com/developers/gitignore/api/eclipse
+# Edit at https://www.toptal.com/developers/gitignore?templates=eclipse
+
+### Eclipse ###
+Programming/*_Programming/.metadata
+Programming/*_Programming/bin/
+Programming/*_Programming/tmp/
+Programming/*_Programming/*.tmp
+Programming/*_Programming/*.bak
+Programming/*_Programming/*.swp
+Programming/*_Programming/*~.nib
+Programming/*_Programming/local.properties
+Programming/*_Programming/.settings/
+Programming/*_Programming/.loadpath
+Programming/*_Programming/.recommenders
+
+# External tool builders
+Programming/*_Programming/.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+Programming/*_Programming/*.launch
+
+# PyDev specific (Python IDE for Eclipse)
+Programming/*_Programming/*.pydevproject
+
+# CDT-specific (C/C++ Development Tooling)
+Programming/*_Programming/.cproject
+
+# CDT- autotools
+Programming/*_Programming/.autotools
+
+# Java annotation processor (APT)
+Programming/*_Programming/.factorypath
+
+# PDT-specific (PHP Development Tools)
+Programming/*_Programming/.buildpath
+
+# sbteclipse plugin
+Programming/*_Programming/.target
+
+# Tern plugin
+Programming/*_Programming/.tern-project
+
+# TeXlipse plugin
+Programming/*_Programming/.texlipse
+
+# STS (Spring Tool Suite)
+Programming/*_Programming/.springBeans
+
+# Code Recommenders
+Programming/*_Programming/.recommenders/
+
+# Annotation Processing
+Programming/*_Programming/.apt_generated/
+Programming/*_Programming/.apt_generated_test/
+
+# Scala IDE specific (Scala & Java development for Eclipse)
+Programming/*_Programming/.cache-main
+Programming/*_Programming/.scala_dependencies
+Programming/*_Programming/.worksheet
+
+# Uncomment this line if you wish to ignore the project description file.
+# Typically, this file would be tracked if it contains build/dependency configurations:
+Programming/*_Programming/.project
+
+### Eclipse Patch ###
+# Spring Boot Tooling
+Programming/*_Programming/.sts4-cache/
+
+# End of https://www.toptal.com/developers/gitignore/api/eclipse
