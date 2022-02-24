@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Programming/220212_Programming/220212_Programming.iml" filepath="$PROJECT_DIR$/Programming/220212_Programming/220212_Programming.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Programming/220213_Programming/220213_Programming.iml" filepath="$PROJECT_DIR$/Programming/220213_Programming/220213_Programming.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Programming/220214_Programming/220214_Programming.iml" filepath="$PROJECT_DIR$/Programming/220214_Programming/220214_Programming.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Programming/220215_Programming/220215_Programming.iml" filepath="$PROJECT_DIR$/Programming/220215_Programming/220215_Programming.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Programming/220216_Programming/220216_Programming.iml" filepath="$PROJECT_DIR$/Programming/220216_Programming/220216_Programming.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Programming/220217_Programming/220217_Programming.iml" filepath="$PROJECT_DIR$/Programming/220217_Programming/220217_Programming.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Programming/220218_Programming/220218_Programming.iml" filepath="$PROJECT_DIR$/Programming/220218_Programming/220218_Programming.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Programming/220219_Programming/220219_Programming.iml" filepath="$PROJECT_DIR$/Programming/220219_Programming/220219_Programming.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Programming/220220_Programming/220220_Programming.iml" filepath="$PROJECT_DIR$/Programming/220220_Programming/220220_Programming.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Programming/220221_Programming/220221_Programming.iml" filepath="$PROJECT_DIR$/Programming/220221_Programming/220221_Programming.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Programming/220222_Programming/220222_Programming.iml" filepath="$PROJECT_DIR$/Programming/220222_Programming/220222_Programming.iml" />
       <module fileurl="file://$PROJECT_DIR$/Programming/220223_Programming/220223_Programming.iml" filepath="$PROJECT_DIR$/Programming/220223_Programming/220223_Programming.iml" />
       <module fileurl="file://$PROJECT_DIR$/Programming/220224_Programming/220224_Programming.iml" filepath="$PROJECT_DIR$/Programming/220224_Programming/220224_Programming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programming/220225_Programming/220225_Programming.iml" filepath="$PROJECT_DIR$/Programming/220225_Programming/220225_Programming.iml" />
     </modules>
   </component>
 </project>
