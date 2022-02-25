@@ -39,5 +39,3 @@ e
 ,Programming/220224_Programming/src/Main.java,e\7\e739ede19092b5088d2e396f8f798dbd5b3ec6d5
 e
 5Programming/220225_Programming/220225_Programming.iml,7\a\7a39ce52e32492ba361d1a26dcf280208e300174
-\
-,Programming/220225_Programming/src/Main.java,1\7\1738a4ad6bd80a234001239617b99669bba3e03e
