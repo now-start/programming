@@ -14,7 +14,7 @@
 
   * Programming_(YYMMDD)
 
-  * Commit Message : feat(문제 번호): commit
+  * Commit Message : feat(문제 번호): Message
 
   * 각 문제 주석에 문제 번호 존재
 
