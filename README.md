@@ -12,9 +12,9 @@
 
 * 프로젝트 파일 단위로 관리
 
-  * (YYMMDD)_Programming
+  * Programming_(YYMMDD)
 
-  * Commit Message : 문제 번호_commit
+  * Commit Message : feat(문제 번호): commit
 
   * 각 문제 주석에 문제 번호 존재
 
